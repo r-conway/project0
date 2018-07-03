@@ -1,0 +1,21 @@
+  h1 {
+      color: #ad42f4;
+      text-align: center;
+      border: 5px solid #ad42f4;
+  }
+
+  h2 {
+      color: black;
+      text-align: center
+  }
+  .container {
+    background-color: yellow;
+    text-align: center;
+ }
+
+ .list {
+     text-align: center;
+ }
+
+
+
