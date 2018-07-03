@@ -1,29 +1,44 @@
-  h1 {
-      color: #ad42f4;
+/*Rebecca Conway CS 33A*/
+/*Style Sheet for Project 0, .css*/
+
+
+  h1 {                    /*center titles and make liliac*/
+      color: #131563;
       text-align: center;
-      border: 5px solid #ad42f4;
+      border: 5px solid #131563;
   }
 
-  h2 {
+  h2 {                    /*center body text and make black*/
       color: black;
       text-align: center
   }
-  .container {
+
+  .container {            /*Gives hyperlinks to other pages yellow background and centers them in their columns*/
     background-color: yellow;
     text-align: center;
- }
+  }
 
- .list {
+  .list {                /*Puts list items on the left*/
      text-align: left;
- }
+  }
 
- #gold {
-          color: #ffd700;
-        }
-
+#gold {                /*codes the ids of the ordered list to gold, silver, and bronze*/
+  color:#ffd700;
+}
  #silver {
           color: #C0C0C0;
         }
 #bronze {
           color: #cd7f32;
+}
+
+@media (min-width: 500px) {    /*Makes the background periwinkle on large screens and white on smaller ones to allow for easier reading*/
+    body {
+        background-color: #99c0ff;
+    }
+}
+@media (max-width: 499px) {
+    body {
+        background-color: white;
+    }
 }
